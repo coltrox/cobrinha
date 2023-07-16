@@ -10,7 +10,7 @@ jobs:
     name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
+      # Snake Animation (https://github.com/coltrox)
       - uses: Platane/snk@master
         id: snake-gif
         with:
@@ -23,3 +23,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
